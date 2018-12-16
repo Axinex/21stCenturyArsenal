@@ -9,5 +9,5 @@ The Rimworld Community Discord: https://discord.gg/rimworld
 My Github Pages Site: https://axinex.github.io
 
 # Thanks To:
-[@Abaddon16](https://github.com/Abaddon16/) - For giving me the push to actually start modding this magnificent storyteller of a game.
+[@Abaddon16](https://github.com/Abaddon16/) - For giving me the push to actually start modding this magnificent storyteller of a game.  
 Tynan Sylvester - For creating and sharing with us the magnificent storyteller of a game, RimWorld.

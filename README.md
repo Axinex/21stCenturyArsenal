@@ -5,7 +5,7 @@ Yet another RimWorld mod that adds more modern guns
 This mod is EXTREMELY incomplete. By downloading and using this mod, you accept that you will be one of my guinea pigs and that you will likely be subject to a great many imbalanced and/or straight-up broken weapons and items. Don't worry, we'll iron that stuff out.
 
 # Important Links
-The Rimworld Community Discord: https://discord.gg/rimworld
+The Rimworld Community Discord: https://discord.gg/rimworld  
 My Github Pages Site: https://axinex.github.io
 
 # Thanks To:

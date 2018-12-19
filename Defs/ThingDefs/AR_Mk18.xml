@@ -18,7 +18,7 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>21CA_Mk18_Std</defName>
     <label>Mk.18</label>
-    <description>A modern improvement upon the venerable M4A1 assault carbine, the Mark 18 is manufactured with quality in mind and features advanced materials and quality engineering to ensure enhanced handling, lethality and durability. It is revered by special operations forces and mercenaries all throughout the galazy as one of the finest examples of the AR-15 pattern rifle currently in service. Unfortunately, this quality comes with some added expense in both meterials and manufacture time.</description>
+    <description>A modern improvement upon the venerable M4A1 assault carbine, the Mark 18 is manufactured with quality in mind and features advanced materials and quality engineering to ensure enhanced handling, lethality and durability. It is revered by special operations forces and mercenaries all throughout the galazy as one of the finest examples of the AR-15 pattern rifle currently in service. Unfortunately, this quality comes with some added expense in both materials and manufacture time.</description>
     <graphicData>
         <texPath>Things/AR_Mk18</texPath>
         <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
@@ -43,7 +43,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_Mk18_21CA</defaultProjectile>
             <warmupTime>0.84</warmupTime>
-            <range>36.3</range>
+            <range>31.3</range>
             <burstShotCount>3</burstShotCount>
             <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>Shot_AssaultRifle</soundCast>

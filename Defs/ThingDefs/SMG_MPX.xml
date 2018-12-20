@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_MPX_21CA</defName>
+    <label>MPX bullet</label>
+    <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>15</damageAmountBase><armorPenetrationBase>.32</armorPenetrationBase>
+        <speed>51</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>21CA_MPX</defName>
+    <label>SIG MPX</label>
+    <description>Developed by SIG Sauer, the MPX is a 9mm submachine gun that, while visually similar to the MP5, has more in common mechanically with assault rifles then other SMGs.</description>
+    <graphicData>
+        <texPath>Things/SMG_MPX</texPath>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
+    </graphicData>
+    <soundInteract>Interact_SMG</soundInteract>
+    <statBases>
+        <WorkToMake>27456</WorkToMake>
+        <Mass>2.7</Mass>
+        <AccuracyTouch>.98</AccuracyTouch>
+        <AccuracyShort>.82</AccuracyShort>
+        <AccuracyMedium>.52</AccuracyMedium>
+        <AccuracyLong>.25</AccuracyLong>
+        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+        <Steel>68</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_MPX_21CA</defaultProjectile>
+            <warmupTime>.98</warmupTime>
+            <range>22.4</range>
+            <burstShotCount>3</burstShotCount>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <soundCast>Shot_MachinePistol</soundCast>
+            <soundCastTail>GunTail_Light</soundCastTail>
+            <muzzleFlashScale>6</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>stock</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+        <li>
+            <label>barrel</label>
+            <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+    </tools>
+</ThingDef>
+
+</Defs>

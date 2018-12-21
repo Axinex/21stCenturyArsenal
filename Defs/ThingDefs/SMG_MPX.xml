@@ -45,7 +45,7 @@
             <warmupTime>.98</warmupTime>
             <range>22.4</range>
             <burstShotCount>3</burstShotCount>
-            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
             <soundCast>Shot_MachinePistol</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>6</muzzleFlashScale>

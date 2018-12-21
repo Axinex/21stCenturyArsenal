@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+<ThingDef ParentName="BaseBullet">
+    <defName>Bullet_PKP_21CA</defName>
+    <label>PKP Pecheneg bullet</label>
+    <graphicData>
+        <texPath>Things/Projectile/Bullet_Small</texPath>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
+    </graphicData>
+    <projectile>
+        <damageDef>Bullet</damageDef>
+        <damageAmountBase>8</damageAmountBase><armorPenetrationBase>.76</armorPenetrationBase>
+        <speed>79</speed>
+    </projectile>
+</ThingDef>
+
+<ThingDef ParentName="BaseHumanMakeableGun">
+    <defName>21CA_PKP</defName>
+    <label>PKP Pecheneg</label>
+    <description>The PKP Pecheneg is a monster of a light machine gun, it's powerful 7.26mm round putting it in the same class of stopping power typically found in heavier-weight MMGs. While its fire rate isn't as fast as other modern LMGs, it makes up for this with raw stopping power. The PKP is notable for having an extremely large muzzle flash for a weapon of its caliber.</description> 
+    <graphicData>
+        <texPath>Things/LMG_PKP</texPath>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
+    </graphicData>
+    <soundInteract>Interact_Rifle</soundInteract>
+    <statBases>
+        <WorkToMake>39665</WorkToMake>
+        <Mass>7.9</Mass>
+        <AccuracyTouch>.45</AccuracyTouch>
+        <AccuracyShort>.62</AccuracyShort>
+        <AccuracyMedium>.42</AccuracyMedium>
+        <AccuracyLong>.20</AccuracyLong>
+        <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+    </statBases>
+    <costList>
+        <Steel>54</Steel>
+        <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <verbs>
+        <li>
+            <verbClass>Verb_Shoot</verbClass>
+            <hasStandardCommand>true</hasStandardCommand>
+            <defaultProjectile>Bullet_PKP_21CA</defaultProjectile>
+            <warmupTime>.94</warmupTime>
+            <range>32</range>
+            <burstShotCount>10</burstShotCount>
+            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+            <soundCast>Shot_Minigun</soundCast>
+            <soundCastTail>GunTail_Heavy</soundCastTail>
+            <muzzleFlashScale>10</muzzleFlashScale>
+        </li>
+    </verbs>
+    <tools>
+        <li>
+            <label>stock</label>
+            <capacities>
+                <li>Blunt</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+        <li>
+            <label>barrel</label>
+            <capacities>
+                <li>Blunt</li>
+                <li>Poke</li>
+            </capacities>
+            <power>8</power>
+            <cooldownTime>1.6</cooldownTime>
+        </li>
+    </tools>
+</ThingDef>
+
+</Defs>

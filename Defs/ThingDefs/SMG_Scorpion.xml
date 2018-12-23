@@ -16,7 +16,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>21CA_Scorpion</defName>
+    <defName>Axi_SMG_Scorpion_21CA</defName>
     <label>CZ Scorpion</label>
     <description>The third generation Scorpion, the EVO 3, continues CZ's tradition of taking everything great about the previous generation Scorpion and improving upon it. The EVO 3 is a distilled masterpiece of a 9mm SMG, boasting a fast fire rate, soft recoil impulse, and excellent ergonomics. It's no wonder special operations and boarding forces around the cluster rave about this compact buzzsaw of a gun.</description> 
     <graphicData>

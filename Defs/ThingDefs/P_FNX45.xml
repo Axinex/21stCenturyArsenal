@@ -16,7 +16,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>21CA_FNX45_Std</defName>
+    <defName>Axi_P_FNX45_21CA</defName>
     <label>FNX-45 Tactical</label>
     <description>A rather large pistol in its own right, the FNX-45 makes up for its size with an equally massive .45 Automatic round, 12 to a magazine. This combination of stopping power and capacity make the FNX-45 a popular choice for boarding parties and guardsmen alike. This particular example is a Tactical variant with raised sights and a threaded barrel for mounting a suppressor.</description> 
     <graphicData>

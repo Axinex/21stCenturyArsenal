@@ -16,7 +16,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>21CA_AK12_Std</defName>
+    <defName>Axi_AR_AK12_21CA</defName>
     <label>AK-12</label>
     <description>A modernized variant of the legendary AK-47, the AK-12 utilized contemporary materials and manufacturing techniques to produce a weapon that shares it's predecessor's reliability while reducing weight and improving ergonomics.</description>
     <graphicData>

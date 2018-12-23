@@ -16,7 +16,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>21CA_MPX</defName>
+    <defName>Axi_SMG_MPX_21CA</defName>
     <label>SIG MPX</label>
     <description>Developed by SIG Sauer, the MPX is a 9mm submachine gun that, while visually similar to the MP5, has more in common mechanically with assault rifles then other SMGs.</description>
     <graphicData>

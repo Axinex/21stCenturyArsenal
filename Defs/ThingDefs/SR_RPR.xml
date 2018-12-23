@@ -16,11 +16,11 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>Axi_S_RPR_21CA</defName>
+    <defName>Axi_SR_RPR_21CA</defName>
     <label>Ruger Precision Rifle</label>
     <description>Ruger's Precision Rifle platform is an interesting take on the modern precision rifle. Making extensive use of lightweight materials, and eschewing the typical characteristics of the traditional bolt-action rifle in favor of features like accessory rails and a fully-adjustable, skeletonized stock, Ruger has managed to produce a bolt gun that puts many competing (and oftentimes more expensive) products to shame.</description> 
     <graphicData>
-        <texPath>Things/S_RPR</texPath>
+        <texPath>Things/SR_RPR</texPath>
         <graphicClass>Graphic_Single</graphicClass><drawSize>2.65</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
@@ -33,6 +33,12 @@
         <AccuracyLong>.94</AccuracyLong>
         <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>8</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <costList>
         <Steel>76</Steel>
         <ComponentIndustrial>9</ComponentIndustrial>

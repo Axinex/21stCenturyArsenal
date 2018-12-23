@@ -16,7 +16,7 @@
 </ThingDef>
 
 <ThingDef ParentName="BaseHumanMakeableGun">
-    <defName>21CA_PDR</defName>
+    <defName>Axi_AR_PDR_21CA</defName>
     <label>Magpul PDR</label>
     <description>Previously an unreleased prototype, Magpul's PDR, or Personal Defense Rifle, turns the concept of a PDW on its head by utilizing bullpup weapon design and standard rifle ammunition to place assault rifle capabilities into a tiny package. For thsi reason, boarding parties around the cluster have gravitated towards it for clearing the tight confines of spacefaring vessels.</description> 
     <graphicData>

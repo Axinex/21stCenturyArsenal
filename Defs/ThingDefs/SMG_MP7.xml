@@ -33,6 +33,12 @@
         <AccuracyLong>.17</AccuracyLong>
         <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>BlowbackOperation</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>7</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <costList>
         <Steel>69</Steel> <!--ayy-->
         <ComponentIndustrial>5</ComponentIndustrial>

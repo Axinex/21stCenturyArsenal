@@ -25,7 +25,7 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>84381</WorkToMake>
+        <WorkToMake>74381</WorkToMake>
         <Mass>14.8</Mass>
         <AccuracyTouch>.41</AccuracyTouch>
         <AccuracyShort>.73</AccuracyShort>
@@ -33,6 +33,12 @@
         <AccuracyLong>.94</AccuracyLong>
         <RangedWeapon_Cooldown>4.1</RangedWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>9</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <costList>
         <Steel>276</Steel>
         <ComponentIndustrial>18</ComponentIndustrial>

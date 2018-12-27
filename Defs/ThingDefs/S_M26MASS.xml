@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>19.2</damageAmountBase><armorPenetrationBase>.13</armorPenetrationBase>
+        <damageAmountBase>19</damageAmountBase><armorPenetrationBase>.13</armorPenetrationBase>
         <stoppingPower>2.6</stoppingPower>
         <speed>45</speed>
     </projectile>
@@ -34,6 +34,11 @@
         <AccuracyLong>.61</AccuracyLong>
         <RangedWeapon_Cooldown>1.08</RangedWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <skillRequirements>
+        <Crafting>6</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <costList>
         <Steel>67</Steel>
         <ComponentIndustrial>4</ComponentIndustrial>

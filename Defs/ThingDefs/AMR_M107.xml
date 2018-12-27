@@ -33,6 +33,12 @@
         <AccuracyLong>.94</AccuracyLong>
         <RangedWeapon_Cooldown>2.9</RangedWeapon_Cooldown>
     </statBases>
+    <recipeMaker>
+      <researchPrerequisite>PrecisionRifling</researchPrerequisite>
+      <skillRequirements>
+        <Crafting>10</Crafting>
+      </skillRequirements>
+    </recipeMaker>
     <costList>
         <Steel>298</Steel>
         <ComponentIndustrial>19</ComponentIndustrial>

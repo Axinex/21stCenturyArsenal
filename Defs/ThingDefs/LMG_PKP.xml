@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>8</damageAmountBase><armorPenetrationBase>.76</armorPenetrationBase>
+        <damageAmountBase>13</damageAmountBase>
         <speed>79</speed>
     </projectile>
 </ThingDef>
@@ -25,13 +25,13 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>39665</WorkToMake>
-        <Mass>7.9</Mass>
-        <AccuracyTouch>.45</AccuracyTouch>
-        <AccuracyShort>.62</AccuracyShort>
-        <AccuracyMedium>.42</AccuracyMedium>
-        <AccuracyLong>.20</AccuracyLong>
-        <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+        <WorkToMake>35000</WorkToMake>
+        <Mass>8.5</Mass>
+        <AccuracyTouch>.4</AccuracyTouch>
+        <AccuracyShort>.5</AccuracyShort>
+        <AccuracyMedium>.4</AccuracyMedium>
+        <AccuracyLong>.15</AccuracyLong>
+        <RangedWeapon_Cooldown>1.8</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>GasOperation</researchPrerequisite>
@@ -40,18 +40,18 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>54</Steel>
-        <ComponentIndustrial>4</ComponentIndustrial>
+        <Steel>75</Steel>
+        <ComponentIndustrial>5</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_PKP_21CA</defaultProjectile>
-            <warmupTime>.94</warmupTime>
-            <range>32</range>
-            <burstShotCount>10</burstShotCount>
-            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+            <warmupTime>2.2</warmupTime>
+            <range>26</range>
+            <burstShotCount>7</burstShotCount>
+            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
             <soundCast>Shot_Minigun</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>10</muzzleFlashScale>

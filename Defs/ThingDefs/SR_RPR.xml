@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>38</damageAmountBase><armorPenetrationBase>1.5</armorPenetrationBase>
+        <damageAmountBase>23</damageAmountBase>
         <speed>112</speed>
     </projectile>
 </ThingDef>
@@ -21,17 +21,17 @@
     <description>Ruger's Precision Rifle platform is an interesting take on the modern precision rifle. Making extensive use of lightweight materials, and eschewing the typical characteristics of the traditional bolt-action rifle in favor of features like accessory rails and a fully-adjustable, skeletonized stock, Ruger has managed to produce a bolt gun that puts many competing (and oftentimes more expensive) products to shame.</description> 
     <graphicData>
         <texPath>Things/SR_RPR</texPath>
-        <graphicClass>Graphic_Single</graphicClass><drawSize>2.65</drawSize>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>52000</WorkToMake>
+        <WorkToMake>50000</WorkToMake>
         <Mass>3.8</Mass>
-        <AccuracyTouch>.51</AccuracyTouch>
-        <AccuracyShort>.68</AccuracyShort>
-        <AccuracyMedium>.87</AccuracyMedium>
-        <AccuracyLong>.94</AccuracyLong>
-        <RangedWeapon_Cooldown>2.4</RangedWeapon_Cooldown>
+        <AccuracyTouch>.5</AccuracyTouch>
+        <AccuracyShort>.65</AccuracyShort>
+        <AccuracyMedium>.8</AccuracyMedium>
+        <AccuracyLong>.85</AccuracyLong>
+        <RangedWeapon_Cooldown>2.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -40,8 +40,8 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>76</Steel>
-        <ComponentIndustrial>9</ComponentIndustrial>
+        <Steel>70</Steel>
+        <ComponentIndustrial>8</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
@@ -49,7 +49,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_RPR_21CA</defaultProjectile>
             <warmupTime>3.4</warmupTime>
-            <range>47.9</range>
+            <range>45</range>
             <soundCast>Shot_SniperRifle</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>

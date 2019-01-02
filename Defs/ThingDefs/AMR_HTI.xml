@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>79</damageAmountBase><armorPenetrationBase>2.7</armorPenetrationBase>
+        <damageAmountBase>52</damageAmountBase><armorPenetrationBase>2.4</armorPenetrationBase>
         <speed>108</speed>
     </projectile>
 </ThingDef>
@@ -21,17 +21,17 @@
     <description>Designed and manufactured on the desert world of Utha, Desert Tech approached the problem of mechanoids and light armored vehicles in the same way it did most others: with bullpup design and robust engineering. As a result of its native home in Utha's sand dunes and dusty shrublands, the Hard Target Interdiction rifle can survive through the toughest environments you could possibly throw it into and continue firing rounds downrange without stoppage or loss of consistency.</description> 
     <graphicData>
         <texPath>Things/AMR_HTI</texPath>
-        <graphicClass>Graphic_Single</graphicClass><drawSize>2.65</drawSize>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>74381</WorkToMake>
+        <WorkToMake>70000</WorkToMake>
         <Mass>14.8</Mass>
-        <AccuracyTouch>.41</AccuracyTouch>
-        <AccuracyShort>.73</AccuracyShort>
-        <AccuracyMedium>.87</AccuracyMedium>
-        <AccuracyLong>.94</AccuracyLong>
-        <RangedWeapon_Cooldown>4.1</RangedWeapon_Cooldown>
+        <AccuracyTouch>.45</AccuracyTouch>
+        <AccuracyShort>.7</AccuracyShort>
+        <AccuracyMedium>.75</AccuracyMedium>
+        <AccuracyLong>.8</AccuracyLong>
+        <RangedWeapon_Cooldown>6.4</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -40,16 +40,16 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>276</Steel>
-        <ComponentIndustrial>18</ComponentIndustrial>
+        <Steel>200</Steel>
+        <ComponentIndustrial>14</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_HTI_21CA</defaultProjectile>
-            <warmupTime>7.31</warmupTime>
-            <range>81.4</range>
+            <warmupTime>6.8</warmupTime>
+            <range>75</range>
             <soundCast>Shot_SniperRifle</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>13</muzzleFlashScale>

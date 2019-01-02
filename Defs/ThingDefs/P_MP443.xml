@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>9</damageAmountBase><armorPenetrationBase>.28</armorPenetrationBase>
+        <damageAmountBase>10</damageAmountBase>
         <speed>68</speed>
     </projectile>
 </ThingDef>
@@ -25,12 +25,12 @@
     </graphicData>
     <soundInteract>Interact_Autopistol</soundInteract>
     <statBases>
-        <WorkToMake>6235</WorkToMake>
-        <Mass>1.1</Mass>
-        <AccuracyTouch>.90</AccuracyTouch>
-        <AccuracyShort>.84</AccuracyShort>
-        <AccuracyMedium>.56</AccuracyMedium>
-        <AccuracyLong>.29</AccuracyLong>
+        <WorkToMake>4500</WorkToMake>
+        <Mass>1.2</Mass>
+        <AccuracyTouch>.8</AccuracyTouch>
+        <AccuracyShort>.85</AccuracyShort>
+        <AccuracyMedium>.55</AccuracyMedium>
+        <AccuracyLong>..3</AccuracyLong>
         <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -40,8 +40,8 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>33</Steel>
-        <ComponentIndustrial>3</ComponentIndustrial>
+        <Steel>31</Steel>
+        <ComponentIndustrial>2</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
@@ -49,7 +49,7 @@
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_MP443_21CA</defaultProjectile>
             <warmupTime>.30</warmupTime>
-            <range>29</range>
+            <range>25</range>
             <soundCast>Shot_Autopistol</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>

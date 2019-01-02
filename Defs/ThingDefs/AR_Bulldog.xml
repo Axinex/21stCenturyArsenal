@@ -10,8 +10,8 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>9</damageAmountBase><armorPenetrationBase>.87</armorPenetrationBase>
-        <speed>73</speed>
+        <damageAmountBase>13</damageAmountBase>
+        <speed>100</speed>
     </projectile>
 </ThingDef>
 
@@ -25,13 +25,13 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>49000</WorkToMake>
+        <WorkToMake>48000</WorkToMake>
         <Mass>3.5</Mass>
-        <AccuracyTouch>.67</AccuracyTouch>
-        <AccuracyShort>.81</AccuracyShort>
-        <AccuracyMedium>.84</AccuracyMedium>
-        <AccuracyLong>.72</AccuracyLong>
-        <RangedWeapon_Cooldown>1.51</RangedWeapon_Cooldown>
+        <AccuracyTouch>.65</AccuracyTouch>
+        <AccuracyShort>.75</AccuracyShort>
+        <AccuracyMedium>.8</AccuracyMedium>
+        <AccuracyLong>.7</AccuracyLong>
+        <RangedWeapon_Cooldown>1.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -48,8 +48,8 @@
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_Bulldog_21CA</defaultProjectile>
-            <warmupTime>1.02</warmupTime>
-            <range>36.4</range>
+            <warmupTime>1</warmupTime>
+            <range>32.4</range>
             <burstShotCount>3</burstShotCount>
             <ticksBetweenBurstShots>10</ticksBetweenBurstShots>
             <soundCast>Shot_AssaultRifle</soundCast>

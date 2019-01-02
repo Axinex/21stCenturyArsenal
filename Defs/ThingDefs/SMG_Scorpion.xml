@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>12</damageAmountBase><armorPenetrationBase>.30</armorPenetrationBase>
+        <damageAmountBase>15</damageAmountBase>
         <speed>54</speed>
     </projectile>
 </ThingDef>
@@ -25,12 +25,12 @@
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
     <statBases>
-        <WorkToMake>28915</WorkToMake>
+        <WorkToMake>26000</WorkToMake>
         <Mass>2.5</Mass>
-        <AccuracyTouch>.88</AccuracyTouch>
-        <AccuracyShort>.76</AccuracyShort>
-        <AccuracyMedium>.36</AccuracyMedium>
-        <AccuracyLong>.12</AccuracyLong>
+        <AccuracyTouch>.8</AccuracyTouch>
+        <AccuracyShort>.75</AccuracyShort>
+        <AccuracyMedium>.35</AccuracyMedium>
+        <AccuracyLong>.1</AccuracyLong>
         <RangedWeapon_Cooldown>1.6</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -48,10 +48,10 @@
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_Scorpion_21CA</defaultProjectile>
-            <warmupTime>1.1</warmupTime>
-            <range>21.6</range>
+            <warmupTime>1</warmupTime>
+            <range>21</range>
             <burstShotCount>3</burstShotCount>
-            <ticksBetweenBurstShots>4</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>5</ticksBetweenBurstShots>
             <soundCast>Shot_MachinePistol</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>7</muzzleFlashScale>

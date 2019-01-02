@@ -30,7 +30,7 @@
         <AccuracyTouch>.8</AccuracyTouch>
         <AccuracyShort>.85</AccuracyShort>
         <AccuracyMedium>.55</AccuracyMedium>
-        <AccuracyLong>..3</AccuracyLong>
+        <AccuracyLong>.3</AccuracyLong>
         <RangedWeapon_Cooldown>1.0</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>

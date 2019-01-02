@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>5</damageAmountBase><armorPenetrationBase>.86</armorPenetrationBase>
+        <damageAmountBase>11</damageAmountBase>
         <speed>77</speed>
     </projectile>
 </ThingDef>
@@ -25,13 +25,13 @@
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>72433</WorkToMake>
+        <WorkToMake>45000</WorkToMake>
         <Mass>2.9</Mass>
-        <AccuracyTouch>0.79</AccuracyTouch>
-        <AccuracyShort>0.89</AccuracyShort>
-        <AccuracyMedium>0.81</AccuracyMedium>
-        <AccuracyLong>0.69</AccuracyLong> <!--I promise, I'm a professional.-->
-        <RangedWeapon_Cooldown>1.14</RangedWeapon_Cooldown> <!--Probably too short, tbf-->
+        <AccuracyTouch>0.7</AccuracyTouch>
+        <AccuracyShort>0.8</AccuracyShort>
+        <AccuracyMedium>0.8</AccuracyMedium>
+        <AccuracyLong>0.65</AccuracyLong>
+        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -40,18 +40,18 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>76</Steel>
-        <ComponentIndustrial>8</ComponentIndustrial>
+        <Steel>71</Steel>
+        <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_Mk18_21CA</defaultProjectile>
-            <warmupTime>0.84</warmupTime>
+            <warmupTime>.95</warmupTime>
             <range>31.3</range>
             <burstShotCount>3</burstShotCount>
-            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
             <soundCast>Shot_AssaultRifle</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>

@@ -26,12 +26,12 @@
     </graphicData>
     <soundInteract>Interact_Shotgun</soundInteract>
     <statBases>
-        <WorkToMake>22056</WorkToMake>
-        <Mass>2.54</Mass>
-        <AccuracyTouch>.74</AccuracyTouch>
-        <AccuracyShort>.89</AccuracyShort>
-        <AccuracyMedium>.76</AccuracyMedium>
-        <AccuracyLong>.61</AccuracyLong>
+        <WorkToMake>11000</WorkToMake>
+        <Mass>2.25</Mass>
+        <AccuracyTouch>.7</AccuracyTouch>
+        <AccuracyShort>.8</AccuracyShort>
+        <AccuracyMedium>.65</AccuracyMedium>
+        <AccuracyLong>.5</AccuracyLong>
         <RangedWeapon_Cooldown>1.08</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
@@ -40,16 +40,16 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>67</Steel>
-        <ComponentIndustrial>4</ComponentIndustrial>
+        <Steel>55</Steel>
+        <ComponentIndustrial>3</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_Shotgun_21CA</defaultProjectile>
-            <warmupTime>1.18</warmupTime>
-            <range>14.6</range>
+            <warmupTime>.9</warmupTime>
+            <range>13</range>
             <soundCast>Shot_Shotgun</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>9</muzzleFlashScale>

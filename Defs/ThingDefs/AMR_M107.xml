@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>67</damageAmountBase><armorPenetrationBase>2.4</armorPenetrationBase>
+        <damageAmountBase>52</damageAmountBase><armorPenetrationBase>2.4</armorPenetrationBase>
         <speed>108</speed>
     </projectile>
 </ThingDef>
@@ -21,17 +21,17 @@
     <description>The Barrett M107 is a legendary anti-materiel rifle, having been used by many a well-known mercenary company and military sniper team. Its massive .50-caliber armor-piercing rounds are specifically designed to pierce thick armor, and is even known to punch straight through the tough exteroirs of mechanoid centipedes with ease.</description> 
     <graphicData>
         <texPath>Things/AMR_M107</texPath>
-        <graphicClass>Graphic_Single</graphicClass><drawSize>2.65</drawSize>
+        <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>84381</WorkToMake>
+        <WorkToMake>80000</WorkToMake>
         <Mass>15.6</Mass>
-        <AccuracyTouch>.43</AccuracyTouch>
-        <AccuracyShort>.86</AccuracyShort>
-        <AccuracyMedium>.87</AccuracyMedium>
-        <AccuracyLong>.94</AccuracyLong>
-        <RangedWeapon_Cooldown>2.9</RangedWeapon_Cooldown>
+        <AccuracyTouch>.4</AccuracyTouch>
+        <AccuracyShort>.6</AccuracyShort>
+        <AccuracyMedium>.7</AccuracyMedium>
+        <AccuracyLong>.73</AccuracyLong>
+        <RangedWeapon_Cooldown>4.5</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -40,16 +40,16 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>298</Steel>
-        <ComponentIndustrial>19</ComponentIndustrial>
+        <Steel>265</Steel>
+        <ComponentIndustrial>18</ComponentIndustrial>
     </costList>
     <verbs>
         <li>
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_M107_21CA</defaultProjectile>
-            <warmupTime>6.45</warmupTime>
-            <range>71.6</range>
+            <warmupTime>8.25</warmupTime>
+            <range>70</range>
             <soundCast>Shot_SniperRifle</soundCast>
             <soundCastTail>GunTail_Heavy</soundCastTail>
             <muzzleFlashScale>13</muzzleFlashScale>

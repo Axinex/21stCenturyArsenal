@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>5</damageAmountBase><armorPenetrationBase>.84</armorPenetrationBase>
+        <damageAmountBase>11</damageAmountBase>
         <speed>76</speed>
     </projectile>
 </ThingDef>
@@ -18,20 +18,20 @@
 <ThingDef ParentName="BaseHumanMakeableGun">
     <defName>Axi_AR_PDR_21CA</defName>
     <label>Magpul PDR</label>
-    <description>Previously an unreleased prototype, Magpul's PDR, or Personal Defense Rifle, turns the concept of a PDW on its head by utilizing bullpup weapon design and standard rifle ammunition to place assault rifle capabilities into a tiny package. For thsi reason, boarding parties around the cluster have gravitated towards it for clearing the tight confines of spacefaring vessels.</description> 
+    <description>Previously an unreleased prototype, Magpul's PDR, or Personal Defense Rifle, turns the concept of a PDW on its head by utilizing bullpup weapon design and standard rifle ammunition to place assault rifle capabilities into a tiny package. For this reason, boarding parties around the cluster have gravitated towards it for clearing the tight confines of spacefaring vessels.</description> 
     <graphicData>
         <texPath>Things/AR_PDR</texPath>
         <graphicClass>Graphic_Single</graphicClass><drawSize>1.15</drawSize>
     </graphicData>
     <soundInteract>Interact_Rifle</soundInteract>
     <statBases>
-        <WorkToMake>67253</WorkToMake>
+        <WorkToMake>45000</WorkToMake>
         <Mass>2.6</Mass>
-        <AccuracyTouch>.82</AccuracyTouch>
+        <AccuracyTouch>.8</AccuracyTouch>
         <AccuracyShort>.85</AccuracyShort>
         <AccuracyMedium>.75</AccuracyMedium>
-        <AccuracyLong>.62</AccuracyLong>
-        <RangedWeapon_Cooldown>1.04</RangedWeapon_Cooldown>
+        <AccuracyLong>.65</AccuracyLong>
+        <RangedWeapon_Cooldown>.85</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>PrecisionRifling</researchPrerequisite>
@@ -40,7 +40,7 @@
       </skillRequirements>
     </recipeMaker>
     <costList>
-        <Steel>68</Steel>
+        <Steel>67</Steel>
         <ComponentIndustrial>7</ComponentIndustrial>
     </costList>
     <verbs>
@@ -48,10 +48,10 @@
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_PDR_21CA</defaultProjectile>
-            <warmupTime>.72</warmupTime>
-            <range>27.5</range>
+            <warmupTime>.75</warmupTime>
+            <range>26.5</range>
             <burstShotCount>3</burstShotCount>
-            <ticksBetweenBurstShots>8</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>7</ticksBetweenBurstShots>
             <soundCast>Shot_AssaultRifle</soundCast>
             <soundCastTail>GunTail_Medium</soundCastTail>
             <muzzleFlashScale>6</muzzleFlashScale>

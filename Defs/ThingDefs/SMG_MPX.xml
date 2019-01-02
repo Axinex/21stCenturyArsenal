@@ -10,7 +10,7 @@
     </graphicData>
     <projectile>
         <damageDef>Bullet</damageDef>
-        <damageAmountBase>15</damageAmountBase><armorPenetrationBase>.32</armorPenetrationBase>
+        <damageAmountBase>15</damageAmountBase>
         <speed>51</speed>
     </projectile>
 </ThingDef>
@@ -25,13 +25,13 @@
     </graphicData>
     <soundInteract>Interact_SMG</soundInteract>
     <statBases>
-        <WorkToMake>27456</WorkToMake>
+        <WorkToMake>22000</WorkToMake>
         <Mass>2.7</Mass>
-        <AccuracyTouch>.98</AccuracyTouch>
-        <AccuracyShort>.82</AccuracyShort>
-        <AccuracyMedium>.52</AccuracyMedium>
-        <AccuracyLong>.25</AccuracyLong>
-        <RangedWeapon_Cooldown>1.2</RangedWeapon_Cooldown>
+        <AccuracyTouch>.9</AccuracyTouch>
+        <AccuracyShort>.8</AccuracyShort>
+        <AccuracyMedium>.5</AccuracyMedium>
+        <AccuracyLong>.21</AccuracyLong>
+        <RangedWeapon_Cooldown>1.1</RangedWeapon_Cooldown>
     </statBases>
     <recipeMaker>
       <researchPrerequisite>BlowbackOperation</researchPrerequisite>
@@ -48,10 +48,10 @@
             <verbClass>Verb_Shoot</verbClass>
             <hasStandardCommand>true</hasStandardCommand>
             <defaultProjectile>Bullet_MPX_21CA</defaultProjectile>
-            <warmupTime>.98</warmupTime>
-            <range>22.4</range>
+            <warmupTime>.95</warmupTime>
+            <range>23</range>
             <burstShotCount>3</burstShotCount>
-            <ticksBetweenBurstShots>6</ticksBetweenBurstShots>
+            <ticksBetweenBurstShots>9</ticksBetweenBurstShots>
             <soundCast>Shot_MachinePistol</soundCast>
             <soundCastTail>GunTail_Light</soundCastTail>
             <muzzleFlashScale>6</muzzleFlashScale>
